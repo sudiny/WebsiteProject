@@ -1,0 +1,212 @@
+body {
+    color: #333;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+    font-size: 62.5%;
+    margin: 0;
+    overflow-wrap: break-word;
+    padding: 0;
+    background-color: #fff;
+}
+pre {
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+    white-space: pre-wrap;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+progress {
+    display: inline-block;
+    vertical-align: baseline;
+}
+a {
+    background-color: transparent;
+    color: #040404;
+    text-decoration: none;
+}
+a:hover {
+    color: #cd1739;
+}
+h1, h2, h3, h4 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+p {
+    margin: 0;
+}
+p + p {
+    margin-top: 10px;
+}
+img {
+    border: 0 none;
+    display: inline-block;
+    vertical-align: top;
+}
+button, input, optgroup, select, textarea {
+    border: 1px solid #ededed;
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+}
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"], input[type="file"] {
+    cursor: pointer;
+}
+input[type="text"], input[type="password"] {
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+}
+input[type="submit"], input[type="reset"], input[type="button"], button {
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th, td {
+    padding: 0;
+}
+strong, b {
+    font-weight: 400;
+}
+em, i {
+    font-style: normal;
+}
+dl, dt, dd {
+    margin: 0;
+}
+*::-moz-selection {
+    background-color: #00b38a;
+    color: #fff;
+}
+ul, ol {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.dn {
+    display: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix {
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+[v-cloak] {
+    display: none;
+}
+.table {
+    display: table;
+}
+.table_row {
+    display: table-row;
+}
+.table_cell {
+    display: table-cell;
+}
+p.error {
+    color: #ed7266;
+    font-size: 12px;
+    margin-top: 4px;
+}
+input.active[type="text"], textarea.active {
+    border-color: #3dca99 !important;
+}
+.invalid input[type="text"], .invalid textarea {
+    border-color: #ed7266 !important;
+}
+.invalid input.active[type="text"], .invalid textarea.active {
+    border-color: #ed7266 !important;
+}
+.common_tips {
+    background-color: #f9f4d4;
+    color: #66321c;
+    font-size: 14px;
+    height: 42px;
+    left: 0;
+    line-height: 42px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.common_tips .icon-checked {
+    border: 1px solid #66321c;
+    border-radius: 50%;
+    color: #66321c;
+    font-size: 12px;
+    margin-right: 20px;
+    padding: 5px;
+}
+.confirm_panel {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid #dce0e0;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.08);
+    left: 50%;
+    margin-left: -168px;
+    padding-top: 22px;
+    position: fixed;
+    text-align: center;
+    top: 238px;
+    width: 334px;
+}
+.confirm_panel p {
+    margin: 0;
+}
+.confirm_panel p.main {
+    line-height: 28px;
+}
+.confirm_panel p.tips_txt {
+    color: #999;
+    line-height: 20px;
+    margin-top: 4px;
+}
+.confirm_panel input {
+    background-clip: padding-box;
+    border-radius: 18px;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 36px;
+    margin: 0 13px;
+    padding: 0 22px;
+}
+.confirm_panel .btn_cont {
+    background-color: #fafafa;
+    margin-top: 24px;
+    padding: 14px;
+}
+.confirm_panel .btn_cont .confirm_btn {
+    background-color: #3dca99;
+    color: #fff;
+}
+.confirm_panel .btn_cont .cancel_btn {
+    background-color: #fff;
+    border: 1px solid #dce0e0;
+    color: #333;
+}
+/* 浮动聊天框 */
+.fixedBox{position: fixed; right: 0px; font-size: 16px; top: 40%; z-index: 999; width: 118px;padding: 10px; background: #fff; border: 1px #E6E6E6  solid; border-top-left-radius: 9px; border-bottom-left-radius: 9px;}      	
