@@ -448,7 +448,7 @@ input,button,select,textarea{
 }
 /*===============   首页内容部分   ===============*/
 .wrapper {
-    background: #EFEFCE;
+    /*background: #EFEFCE;*/
     min-height:850px;
     width:100%;     
 }
@@ -1807,13 +1807,6 @@ input,button,select,textarea{
     width: 23%;
     padding: 0 1px;
 }
-
-
-
-
-
-
-
 /*===============      智库freemanlist页面    ===============*/
 
 /*===============      智库freemanlist页面 freemanlist   ===============*/
