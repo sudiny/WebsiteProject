@@ -12,7 +12,8 @@
 	<!--<script type="text/javascript" src="../s.union.360.cn/164203.js" tppabs="http://s.union.360.cn/164203.js" async defer></script>-->
 </head>
 <body class="bg-ff">
-<div class="fixedBox"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<div class="fixedBox">
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
     <meta charset="UTF-8"><title>夙迪</title>
@@ -34,26 +35,33 @@
         <a class="tel">15618302858</a>
         <div class="text">微信咨询</div>
         <img src="./resources/bootstrap/img/icoCode01.jpg" tppabs="http://" alt="客服"/>
-        <!--<div class="text">智库咨询</div>
-        <img src="./resources/bootstrap/img/icoCode2.png" tppabs="http://" alt="客服"/>-->
     </div>
 </body>
-</html>
-</div>
-<div class="fixedTop" style="position:relative">
+</html> -->
+
+
+    <style>
+        .fixed-frame .text{font-size:16px;color:#000;} 
+        .frame-box{ text-align: center;clear: both; }
+        .box{float:left;width:100%;position: relative;margin-bottom: 10px;}
+        .fixed-frame .tel {float:left;display:block;width:100%;padding-bottom:10px;color:#c8003c;font-size:14px;font-weight: bold; } 
+        .fixed-frame .btn { display: block; width: 110px; height: 35px; line-height: 35px; border-radius: 7px; border:1px #B2B0B0 solid; background: #fff; color: #000; text-align: center; margin: 10px auto; }
+        .fixed-frame img{display:block;margin:2px auto;width:70%;height:70%;}
+        .fixed-frame div,.fixed-frame a{text-align:center;}
+    </style>
+    <div id="fixed" class="fixed-frame fixed">
+        <div class="box">
+            <div class="text">联系电话</div>
+        </div>
+        <a class="tel">15618302858</a>
+        <div class="text">微信咨询</div>
+        <img src="./resources/bootstrap/img/icoCode01.jpg" tppabs="http://" alt="客服"/>
     </div>
+</div>
     <!-- 头部导航 -->
 <div class="header">
     <div class="nav">
         <a href="home.html" tppabs="http://" class="logo"><img src="./resources/bootstrap/img/logo_top01.png" tppabs="http://" alt="夙迪网络科技优质软件外包服务"/></a>
-        <!-- <div class="right-btn">
-            <a href="user/logv.shtml.htm#team.shtml" >登录</a>
-            <a href="user/reg.shtml.htm" >注册</a>
-        </div> -->
-        <div class="nav-btn" >
-           <!--  <a href="javascript:if(confirm(%27http://www.315pr.com/user/logv.shtml#demand/add_demand.shtml  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.315pr.com/user/logv.shtml#demand/add_demand.shtml%27" tppabs="http://www.315pr.com/demand/add_demand.shtml">发布需求</a><a href="javascript:if(confirm(%27http://www.315pr.com/user/logv.shtml#supplier/reg.shtml  \n\nThis file was not retrieved by Teleport Pro, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.315pr.com/user/logv.shtml#supplier/reg.shtml%27" tppabs="http://www.315pr.com/supplier/reg.shtml" style="color:#e42041;border: 1px solid #e42041;">注册供应商</a>
-            <a href="user/reg.shtml.htm" >加入智库</a> -->
-        </div>
         <ul>
             <li><a href="home.html" class="effect-link-line">主页</a></li>
             <li><a href="team.html" class="effect-link-line">团队介绍</a></li>
@@ -100,24 +108,9 @@
 	           <dt>联系地址：</dt>
 	           <dd>上海市闵行区七莘路2855弄131号501</dd>
 	       </dl>
-	       <!-- <div class="code">
-		       <a class="wechat"><img src="./resources/bootstrap/img/wcode.png" alt=""/></a>
-		       <a class="web"></a>
-		       <a class="app"><img src="./resources/bootstrap/img/acode.png" alt=""/></a>
-	       </div> -->
 	    </div>
 	</div>
 </div>
 <div class="copyright">2016-2017 上海夙迪网络科技有限公司 版权所有 </div></div>
-<script>
-    $(function () {
-        var aLi = $('.team-block li');
-        for(var i=0;i<aLi.length;i++){
-            if(i%4 == 3){
-                aLi[i].style.marginRight = '0';
-            }
-        }
-    })
-</script>
 </body>
 </html>
